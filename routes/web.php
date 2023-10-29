@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\ModalController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,5 +26,8 @@ Route::get('/ShopCard', function () {
     return view('ShopCard');
 });
 Route::get('/detailProduct/{item:id_barang}',[ItemController::class,'show']);
+
+Route::get('/formOrder/{item:id_barang}',[ItemController::class,'quantity']);
+
 
 

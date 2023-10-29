@@ -14,7 +14,7 @@
     <div class="row m-auto">
       {{-- untuk menampilkan deskripsi barang --}}
         <div class="ffset-md-1 col-lg-4">
-           <img  class="img-fluid" src="https://source.unsplash.com/1600x900/?{{ $item->category->Category_name }}" alt="">
+           <img class="img-fluid" src="https://source.unsplash.com/1600x900/?{{ $item->category->Category_name }}" alt="">
         </div>
         <div class="col-lg-7">
           <div class="ms-3">
